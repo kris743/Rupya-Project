@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupiya.app – Residue-free Farming & Carbon Credits</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-b from-green-50 via-white to-blue-50 text-gray-800">
+      <header class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-lg bg-green-600 flex items-center justify-center text-white font-bold">R</div>
+          <div>
+            <h1 class="text-xl font-bold">Rupiya.app</h1>
+            <p class="text-xs text-gray-500">Residue-free farming · Carbon credits · Rural finance</p>
+          </div>
+        </div>
+        <nav class="flex items-center gap-4 text-sm">
+          <a href="#farmers" class="hover:underline">Farmers</a>
+          <a href="#fpos" class="hover:underline">FPOs</a>
+          <a href="#buyers" class="hover:underline">Buyers</a>
+          <a href="#investors" class="hover:underline">Investors</a>
+          <a href="#carbon" class="px-4 py-2 bg-green-600 text-white rounded-lg">Get Support</a>
+        </nav>
+      </header>
+
+      <main class="max-w-7xl mx-auto px-6 pb-24">
+        <!-- HERO -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
+          <div>
+            <h2 class="text-4xl font-extrabold leading-tight">Modern solutions for residue-free farming & climate-positive income</h2>
+            <p class="mt-4 text-lg text-gray-600">Satellite soil testing, AI crop monitoring, agronomy advisory, carbon credits and farmer-friendly fintech — all in one platform to increase yield, reduce cost and add ₹800 per carbon credit to farmers' income.</p>
+            <div class="mt-6 flex gap-3">
+              <a href="#carbon" class="px-5 py-3 rounded-lg bg-green-600 text-white font-semibold">See Carbon Credits</a>
+              <a href="#farmers" class="px-5 py-3 rounded-lg border border-gray-200">How it works</a>
+            </div>
+
+            <div class="mt-8 grid grid-cols-2 gap-3 text-sm">
+              <div class="bg-white/90 rounded-lg p-4 shadow-sm">
+                <div class="font-bold text-xl">35+</div>
+                <div class="text-gray-500">Residue-free inputs</div>
+              </div>
+              <div class="bg-white/90 rounded-lg p-4 shadow-sm">
+                <div class="font-bold text-xl">50,000+</div>
+                <div class="text-gray-500">Farmers target</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="w-full max-w-md p-6 rounded-3xl bg-gradient-to-tr from-white to-green-50 shadow-2xl border border-gray-100">
+              <div class="text-center mb-4">
+                <div class="text-sm text-gray-500">Live farm monitoring</div>
+                <h3 class="text-xl font-bold">AI Satellite Dashboard</h3>
+              </div>
+              <!-- small mock dashboard -->
+              <div class="bg-white rounded-xl p-4 shadow-sm">
+                <div class="flex items-center justify-between text-sm text-gray-600 mb-3">
+                  <div>Soil Health</div>
+                  <div>Stable</div>
+                </div>
+                <div class="h-2 bg-gray-200 rounded-full overflow-hidden mb-3">
+                  <div class="h-2 bg-green-500 w-3/4"></div>
+                </div>
+                <div class="grid grid-cols-3 gap-2 text-xs text-gray-500">
+                  <div class="text-center">Moisture<br/><strong>32%</strong></div>
+                  <div class="text-center">SOC<br/><strong>1.8%</strong></div>
+                  <div class="text-center">Crop Health<br/><strong>Good</strong></div>
+                </div>
+              </div>
+
+              <div class="mt-4 text-sm text-gray-600">Visual flows describe how satellite testing → advisory → inputs → carbon credit verification works.</div>
+            </div>
+          </div>
+        </section>
+
+        {/* SOLUTIONS */}
+        <section id="solutions" class="py-12">
+          <h3 class="text-2xl font-semibold mb-6">Our Solutions — explained simply</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Feature Card 1 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Satellite Soil Testing</h3>
+              <p class="text-sm text-gray-600">High-resolution remote soil analysis across fields for nutrient and SOC insights.</p>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">AI-driven Crop Monitoring</h3>
+              <p class="text-sm text-gray-600">NDVI & multispectral analytics for disease detection, traceability and yield forecasting.</p>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Agronomy Advisory</h3>
+              <p class="text-sm text-gray-600">Software-led recommendations plus local on-ground agronomists to support adoption.</p>
+            </div>
+
+            <!-- Feature Card 4 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2v20" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">35 Residue-free Inputs</h3>
+              <p class="text-sm text-gray-600">Complete input catalog: bio-stimulants, neem-based, composts — all residue-free and certified.</p>
+            </div>
+
+            <!-- Feature Card 5 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v12H4z" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Parametric Insurance</h3>
+              <p class="text-sm text-gray-600">Covers excess rain, humidity/temperature shocks, and wildlife damage with quick payouts.</p>
+            </div>
+
+            <!-- Feature Card 6 -->
+            <div class="bg-white/80 backdrop-blur-md rounded-2xl p-6 shadow-md border border-gray-100">
+              <div class="h-12 w-12 rounded-full bg-gray-50 flex items-center justify-center mb-4">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 12h12" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Farm Credit & Buy-back</h3>
+              <p class="text-sm text-gray-600">Affordable credit and guaranteed buy-back from farm-gate to remove middlemen.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CARBON CREDITS SECTION -->
+        <section id="carbon" class="py-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 class="text-2xl font-semibold">Carbon Credits — simple & technical</h3>
+              <p class="mt-3 text-gray-600">Explain what a carbon credit is, how regenerative practices increase Soil Organic Carbon (SOC), and how verified credits translate to ₹800/farmer per credit. Mention Carboneg partnership and onboarding goals of 5,00,000 ha / 50,000+ farmers over 3 years.</p>
+
+              <ul class="mt-4 space-y-3 text-sm text-gray-700">
+                <li class="flex gap-3 items-start"><span class="font-semibold">What:</span> 1 carbon credit = 1 tonne CO₂e reduced/sequestered.</li>
+                <li class="flex gap-3 items-start"><span class="font-semibold">How:</span> Regenerative practices — cover crops, reduced till, organic inputs — increase SOC measured by satellite + ground sampling.</li>
+                <li class="flex gap-3 items-start"><span class="font-semibold">Income:</span> Verified credits provide ~₹800 extra per credit to farmers (transparent payout flows).</li>
+                <li class="flex gap-3 items-start"><span class="font-semibold">Trust:</span> Verification & partnership with Carboneg ensures European-standard validation.</li>
+              </ul>
+
+              <div class="mt-6 flex gap-3">
+                <a class="px-4 py-2 rounded-lg bg-blue-600 text-white">How claims work</a>
+                <a class="px-4 py-2 rounded-lg border">Download infographic</a>
+              </div>
+            </div>
+
+            <div class="bg-white/90 rounded-2xl p-6 shadow-md border border-gray-100">
+              <h4 class="font-semibold">SOC Increase Visual</h4>
+              <div class="mt-4">
+                <svg viewBox="0 0 300 140" class="w-full h-48">
+                  <defs>
+                    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#2f855a" />
+                      <stop offset="100%" stop-color="#68d391" />
+                    </linearGradient>
+                  </defs>
+                  <rect x="0" y="0" width="300" height="140" rx="12" fill="#fff"/>
+                  <g transform="translate(20,20)">
+                    <rect x="0" y="60" width="30" height="40" rx="4" fill="#c6f6d5" />
+                    <rect x="50" y="40" width="30" height="60" rx="4" fill="#9ae6b4" />
+                    <rect x="100" y="20" width="30" height="80" rx="4" fill="#68d391" />
+                    <rect x="150" y="0" width="30" height="100" rx="4" fill="#2f855a" />
+                    <text x="0" y="115" font-size="10" fill="#4a5568">Year 1</text>
+                    <text x="50" y="115" font-size="10" fill="#4a5568">Year 2</text>
+                    <text x="100" y="115" font-size="10" fill="#4a5568">Year 3</text>
+                    <text x="150" y="115" font-size="10" fill="#4a5568">Year 4</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- MULTI-AUDIENCE JOURNEYS -->
+        <section id="journeys" class="py-12">
+          <h3 class="text-2xl font-semibold mb-6">Designed for every audience</h3>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="p-4 rounded-xl bg-white/90 border shadow-sm">
+              <h4 class="font-semibold">Farmers</h4>
+              <ul class="mt-2 text-sm text-gray-600 space-y-1">
+                <li>Supported crops list</li>
+                <li>Step-by-step residue-free onboarding</li>
+                <li>Carbon credit earning calculator</li>
+                <li>Buy-back & credit application</li>
+              </ul>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/90 border shadow-sm">
+              <h4 class="font-semibold">FPOs</h4>
+              <ul class="mt-2 text-sm text-gray-600 space-y-1">
+                <li>Group onboarding & training</li>
+                <li>Revenue sharing for carbon credits</li>
+                <li>Supply chain dashboards</li>
+              </ul>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/90 border shadow-sm">
+              <h4 class="font-semibold">Institutional Buyers</h4>
+              <ul class="mt-2 text-sm text-gray-600 space-y-1">
+                <li>Traceability & certification</li>
+                <li>Quality & procurement flows</li>
+                <li>Bulk-buy and long-term contracts</li>
+              </ul>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/90 border shadow-sm">
+              <h4 class="font-semibold">Investors / Carbon Buyers</h4>
+              <ul class="mt-2 text-sm text-gray-600 space-y-1">
+                <li>Impact dashboards & charts</li>
+                <li>Partnerships & MoUs</li>
+                <li>Farmer testimonials</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- TRUST & FOOTER -->
+        <section class="py-12">
+          <h3 class="text-2xl font-semibold mb-6">Trust & Impact</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-white rounded-xl shadow-sm border">
+              <div class="text-3xl font-bold">₹800</div>
+              <div class="text-sm text-gray-500">per verified carbon credit to farmers</div>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border">
+              <div class="text-3xl font-bold">5,00,000 ha</div>
+              <div class="text-sm text-gray-500">target area to onboard in 3 years</div>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border">
+              <div class="text-3xl font-bold">Carboneg</div>
+              <div class="text-sm text-gray-500">Exclusive verification partner (Europe)</div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="py-10 text-sm text-gray-500">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>© 2026 Rupiya.app — Building residue-free farming ecosystems</div>
+            <div class="flex gap-3">
+              <a>Privacy</a>
+              <a>Terms</a>
+              <a>Contact</a>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
